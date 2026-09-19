@@ -1,0 +1,1670 @@
+===== FILE: app/about/about-us/page.tsx =====
+
+export default function AboutUs() {
+  return (
+    <>
+      {/* Banner */}
+      <section className="relative h-64 w-full overflow-hidden">
+        <img
+          src="/people-of-prayer.jpg"
+          alt="People of prayer"
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+          <h1 className="font-serif text-4xl text-gray-100">
+            People of prayer
+          </h1>
+        </div>
+      </section>
+
+      {/* About Us content */}
+      <section className="bg-black px-6 py-16 text-white">
+        <h2 className="text-center font-serif text-3xl">About Us</h2>
+
+        <div className="mx-auto mt-8 max-w-5xl text-justify leading-relaxed text-gray-200">
+          <img
+            src="/congregation.jpg"
+            alt="TOLIC congregation gathering"
+            className="mb-4 ml-6 w-64 object-cover float-right md:w-80"
+          />
+
+          <p>
+            Tree of Life International Churches (TOLIChurches) is an end
+            time ministry with a passion for preparing the body of Christ
+            for the return of Christ Jesus. We are in different locations
+            and nations but we are One in faith, belief, worship and
+            mandate. Our Passion is for Jesus and people! We have the
+            mandate to prepare to cover the world with the good news of
+            Jesus Christ and disciple the converts as we prepare ourselves
+            for the return of Christ.
+          </p>
+          <p className="mt-4">
+            Each congregation shares a single-minded aim: to reach people
+            far from God and help them become fully devoted followers of
+            Christ.
+          </p>
+          <p className="mt-4">
+            We are an international community of churches bound as one by
+            a covenant to evangelize the world and fulfill the Great
+            Commission through the power of the Holy Spirit, the love
+            that flows from His Son Jesus Christ and the fellowship of
+            the believers. Currently, we have several branches in
+            different nations.
+          </p>
+          <p className="mt-4">
+            With a heart to reach up to God in worship and out to the
+            world in service, our slogan is Passionate about God!
+            Passionate about people!
+          </p>
+          <p className="mt-4">
+            Our prayer, passion and quest is to see the kingdom of this
+            world become the Kingdom of the Lord and His Christ.
+          </p>
+          <p className="mt-4">
+            As you meet with us, may you meet Christ and be ignited in
+            your faith and passion for Him and the un-reached around you.
+            May the Lord speak to your life today. His thoughts towards
+            you are precious and strong enough to build upon. He cares
+            for you in ways that cannot be imagined. Come again soon! We
+            are happy, God loving, Holy Ghost filled, mandate fulfilling,
+            world impacting group of believers who are conforming into
+            the image of Christ and expectant of His soon return.
+          </p>
+          <p className="mt-4">
+            With branches in different nations, our oneness can be seen
+            in our passion and commitment to Jesus and our love for each
+            other and for the world at large. A dynamic church with a
+            burden for the lost and families. Signs, wonders and miracles
+            are seen as part of every believer&apos;s lifestyle. Jesus
+            Christ is the same yesterday, today and forever!
+          </p>
+
+          <img
+            src="/about-us-closing.jpg"
+            alt="TOLIC ministry"
+            className="mx-auto mt-8 w-full max-w-3xl object-cover"
+          />
+        </div>
+      </section>
+    </>
+  );
+}
+
+===== FILE: app/about/general-overseer/page.tsx =====
+
+import Image from "next/image";
+
+export default function GeneralOverseerPage() {
+  return (
+    <main className="bg-black text-white min-h-screen">
+      {/* Top Banner with Overlay Text */}
+      <section className="relative w-full h-[180px] sm:h-[220px] md:h-[280px] overflow-hidden">
+        <Image
+          src="/leading-under-jesus.jpg" // Must be located at public/leading-under-jesus.jpg
+          alt="Leading under Jesus"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center brightness-75"
+        />
+        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide">
+            Leading under Jesus
+          </h1>
+        </div>
+      </section>
+
+      {/* Main Content Section */}
+      <section className="py-16 px-6 max-w-3xl mx-auto text-center">
+        {/* Section Heading */}
+        <h2 className="text-xl md:text-2xl font-serif font-bold tracking-wider uppercase mb-8">
+          A WORD FROM OUR GENERAL OVERSEER
+        </h2>
+
+        {/* Overseers Image & Caption */}
+        <div className="mb-10 inline-block">
+          <div className="relative w-[300px] sm:w-[400px] md:w-[460px] h-[200px] sm:h-[260px] md:h-[300px] mx-auto overflow-hidden">
+            <Image
+              src="/general-overseer.jpg" // Must be located at public/general-overseer.jpg
+              alt="Apostle John & Rev Stella Ebegbuna"
+              fill
+              sizes="(max-width: 768px) 100vw, 460px"
+              className="object-cover object-center"
+            />
+          </div>
+          <p className="mt-3 text-[10px] sm:text-xs tracking-wider uppercase text-gray-300 font-semibold">
+            APOSTLE JOHN &amp; REV STELLA EBEGBUNA (GENERAL OVERSEER)
+          </p>
+        </div>
+
+        {/* Letter Content */}
+        <div className="text-left space-y-6 text-sm sm:text-base leading-relaxed text-gray-200">
+          <p>
+            We&apos;re so glad that you&apos;re checking out Tree of Life
+            International Churches!
+            <br />
+            This is a place where you can come and find a family full of loving,
+            amazing people who are passionate about God and passionate about
+            people!. We&apos;re committed to sharing the life-transforming message
+            of the Gospel and helping people build the kind of life that&apos;s
+            healthy, vibrant and overflowing in every area. God&apos;s Word is
+            so full of incredible promises for every area of our lives, and we
+            want to see that message of life and hope revolutionize our
+            community, touch our nations and impact the world.
+          </p>
+
+          <p>
+            The church that started in the living room of Apostle John Ebegbuna
+            and Rev Stella Ebegbuna now has over fifty branches in several
+            African nations.
+          </p>
+
+          <p>
+            On this website you can learn about our vision and values, find ways
+            to connect in and stay up to date on what&apos;s happening at Tree of
+            Life International Churches.
+          </p>
+
+          <p>
+            So whether you are in a TOLIC church in South Africa, Kenya,
+            Nigeria, Zambia, DR Congo, Liberia etc every branch you attend is
+            vibrant and passionate. Stop by and experience the life transforming
+            good news of Jesus with people of deep passion.
+          </p>
+
+          <p className="pt-2 font-medium">
+            Looking forward to having you with us!
+            <br />
+            <span className="font-semibold">
+              Apostle John &amp; Rev Stella Ebegbuna
+            </span>
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+===== FILE: app/about/history-and-vision/page.tsx =====
+
+import Image from "next/image";
+
+export default function HistoryAndVisionPage() {
+  return (
+    <main className="bg-black text-white min-h-screen">
+      {/* Top Banner */}
+      <section className="relative w-full h-[180px] sm:h-[220px] md:h-[280px] overflow-hidden">
+        <Image
+          src="/our-history-banner.jpg"
+          alt="Our History Banner"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center brightness-75"
+        />
+        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide">
+            Our History
+          </h1>
+        </div>
+      </section>
+
+      {/* Main Content Container */}
+      <section className="py-16 px-6 max-w-3xl mx-auto">
+        <h2 className="text-xl md:text-2xl font-serif font-bold tracking-wider mb-8">
+          More about Us
+        </h2>
+
+        {/* History Paragraph with Floated Box Image */}
+        <div className="mb-14">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">
+            Our History:
+          </h3>
+
+          <div className="text-sm sm:text-base leading-relaxed text-gray-200 text-justify">
+            {/* Floated Graphic Image */}
+            <div className="float-left mr-4 mb-2 relative w-[160px] sm:w-[220px] h-[100px] sm:h-[135px]">
+              <Image
+                src="/world-map.jpg"
+                alt="God Sent His Son World Map"
+                fill
+                sizes="(max-width: 640px) 160px, 220px"
+                className="object-cover rounded-sm"
+              />
+            </div>
+
+            <p className="mb-4">
+              Tree of Life International Churches (TOLIChurches) started in 1993.
+              Apostle John and Rev Stella Ebegbuna had a mandate to reach the
+              un-reached with the gospel of Jesus Christ, disciple them and
+              send them out to reach other people with the gospel. The
+              importance of the Holy Spirit baptism is emphasized.
+            </p>
+
+            <p>
+              Our call is to preach Jesus Christ, God&apos;s Son, as the Savior,
+              Baptizer with the Holy Spirit, Healer and coming King. Our
+              assignment is to prepare the church for the Second Coming of
+              Christ and develop healthy, growing churches. Our commitment is to
+              plant national churches around the world led by loving servants of
+              Jesus Christ. Churches developed in this manner will reproduce
+              again and again. This makes possible the spread of the gospel to
+              those who have not heard or accepted the message of God&apos;s
+              Son.
+            </p>
+          </div>
+        </div>
+
+        {/* Clear Floating Constraints */}
+        <div className="clear-both" />
+
+        {/* Vision & Strategy Section */}
+        <div className="mt-12 space-y-6">
+          <h3 className="text-xl md:text-2xl font-serif font-bold tracking-wider uppercase">
+            Our Vision and strategy:
+          </h3>
+
+          <p className="text-sm sm:text-base leading-relaxed text-gray-200">
+            The strategy of Tree of Life International Churches is to follow the
+            pattern found in the New Testament. The Holy Spirit led the early
+            church. The pattern has four stages. Each stage is different but
+            connects closely with the others.
+          </p>
+
+          <div className="space-y-6 text-sm sm:text-base text-gray-200 leading-relaxed">
+            <div>
+              <h4 className="font-semibold text-white mb-1">
+                Stage 1: Pioneer
+              </h4>
+              <p>
+                The church starts when workers bring the lost to Christ and plant
+                local congregations. The goal is responsible disciples who
+                evangelize and reproduce themselves. The church at Thessalonica in
+                Greece started this way (Acts 17:1-9; 1 Thessalonians 1:1-10).
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-1">
+                Stage 2: Establish
+              </h4>
+              <p>
+                The church grows stronger when workers give practical Christian
+                teaching and train leaders. The goal is responsible, reproducing
+                leaders who serve their families and the local church. The
+                church on the island of Crete matured this way (Titus 1-3).
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-1">
+                Stage 3: Empower
+              </h4>
+              <p>
+                The national church organizes to govern and support itself and
+                to do its own evangelism in a way that is sensitive to local
+                cultures. The goal is responsible local congregations that plant
+                other churches. Together they become a national church movement
+                to reach the entire country. The church at Ephesus in Turkey
+                developed and multiplied this way (Acts 19-20).
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-1">
+                Stage 4: Send
+              </h4>
+              <p>
+                The national church reaches out to people of other cultures and
+                languages. The goal is responsible national churches that send and
+                support workers who serve other cultures and countries. In
+                obedience to the Holy Spirit, the church at Antioch in Syria
+                became such a church when they sent Paul and Barnabas (Acts
+                13:1-4).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+===== FILE: app/about/statement-of-faith/page.tsx =====
+
+import Image from "next/image";
+
+export default function StatementOfFaithPage() {
+  return (
+    <main className="bg-[#0b0b0b] text-white">
+      {/* Page banner */}
+      <section className="relative w-full h-[160px] md:h-[200px] overflow-hidden">
+        <Image
+          src="/images/doctrinal-beliefs-banner.jpg"
+          alt="Our Doctrinal Beliefs"
+          fill
+          className="object-cover object-center opacity-80"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <h1 className="text-white text-2xl md:text-3xl font-serif tracking-wide">
+            Our Doctrinal Beliefs
+          </h1>
+        </div>
+      </section>
+
+      {/* Content */}
+      <section className="max-w-3xl mx-auto px-6 py-14 text-center">
+        <h2 className="text-lg md:text-xl font-serif tracking-widest uppercase mb-10">
+          Our Statement of Faith
+        </h2>
+
+        <div className="relative w-full max-w-md mx-auto h-64 md:h-72 mb-12">
+          <Image
+            src="/images/congregation-worship.jpg"
+            alt="Congregation in worship"
+            fill
+            className="object-cover"
+          />
+        </div>
+
+        <h3 className="text-left text-lg font-semibold underline decoration-1 underline-offset-4 mb-6">
+          Our Statement of Faith
+        </h3>
+
+        <div className="text-left space-y-6 text-[15px] leading-relaxed text-gray-100">
+          <p>The Bible is the inspired and only infallible Word of God.</p>
+
+          <p>
+            There is one true God, eternally existent in three persons: God
+            the Father, God the Son, God the Holy Spirit.
+          </p>
+
+          <p>
+            In the deity of our Lord Jesus Christ, in His virgin birth, in
+            His sinless life, in His miracles, in His vicarious and atoning
+            death, in His bodily resurrection, in His ascension to the right
+            hand of the Father, in His personal future return to the earth
+            in power and glory to rule for a thousand years.
+          </p>
+
+          <p>
+            In the blessed hope, the imminent return of Christ for
+            overcoming believers.
+          </p>
+
+          <p>
+            In the fall and sinfulness of man and that the only means of
+            being cleansed from sin is through repentance and faith in the
+            redeeming blood of Christ.
+          </p>
+
+          <p>
+            Regeneration by the Holy Spirit is absolutely essential to
+            personal salvation.
+          </p>
+
+          <p>
+            Divine healing is available through the redemptive work of
+            Christ on the cross.
+          </p>
+
+          <p>
+            The Baptism of the Holy Spirit, according to Acts 2:4, is given
+            to believers who ask for it. The Holy Spirit in a person&apos;s
+            life is evidenced by changes in his life, including a renewed
+            love for God, and people, a commitment to the scriptures and
+            holy living. The spirit filled believer has the capability of
+            speaking with new tongues whether or not he or she chooses to
+            exercise this gifting.
+          </p>
+
+          <p>
+            The Church of Jesus Christ is the universal, spiritual body of
+            believers from every tribe, tongue, kindred and race of
+            peoples, and is indwelt by God through the Holy Spirit and
+            divinely empowered to fulfill ministry and her Great Commission
+            on earth.
+          </p>
+
+          <p>
+            In the sanctifying power of the Holy Spirit by whose indwelling
+            the Christian is enabled to live a holy life.
+          </p>
+
+          <p>
+            In the resurrection and final judgment of both the saved and
+            the lost, the saved to everlasting life and the lost to
+            everlasting damnation.
+          </p>
+
+          <p>
+            In the new heavens and the new earth and the holy Jerusalem,
+            the city of God, descending out of heaven and filled with the
+            glory of God.
+          </p>
+
+          <p>
+            Christian growth can only be realized by faith in the promises
+            of God.
+          </p>
+
+          <p>
+            Marriage is God-ordained. &quot;The creator made them male and
+            female, and said, &apos;For this reason a man will leave his
+            father and mother and be united to his wife, and the two will
+            become one flesh&apos;&quot; (Matthew 19:4-5). Marriage is to be
+            an exclusive relationship, a lifelong faithful union between a
+            man and a woman. This relationship between a husband and wife
+            should parallel the relationship between Christ and the Church
+            (Ephesians 5:23-30).
+          </p>
+
+          <p>
+            We practice two ordinances: (1) Water Baptism by immersion
+            after repenting of one&apos;s sins and receiving the gift of
+            salvation. And (2) Holy Communion (the Lord&apos;s Supper) as a
+            symbolic remembrance of Christ&apos;s suffering and death for
+            our salvation.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+===== FILE: app/celebration/page.tsx =====
+
+
+
+===== FILE: app/church-departments/page.tsx =====
+
+import Image from "next/image";
+
+export default function ChurchDepartmentsPage() {
+  return (
+    <main className="bg-black text-white min-h-screen">
+      {/* Top Banner */}
+      <section className="relative w-full h-[180px] sm:h-[220px] md:h-[280px] overflow-hidden">
+        <Image
+          src="/church-departments-banner.jpg"
+          alt="Get Involved"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center brightness-75"
+        />
+        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide">
+            Get Involved...
+          </h1>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <section className="py-16 px-6 max-w-4xl mx-auto">
+        <h2 className="text-center font-serif text-2xl md:text-3xl tracking-wide mb-10">
+          CHURCH DEPARTMENTS
+        </h2>
+
+        <div className="text-sm sm:text-base leading-relaxed text-gray-200">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-3">
+            Get Involved
+          </h3>
+
+          <div className="relative float-right ml-6 mb-4 w-[140px] h-[110px] sm:w-[180px] sm:h-[140px] overflow-hidden">
+            <Image
+              src="/hands-together.jpg"
+              alt="Hands joined together in unity"
+              fill
+              sizes="(max-width: 640px) 140px, 180px"
+              className="object-cover"
+            />
+          </div>
+
+          <p className="mb-4">
+            There are several Tree of Life International Churches
+            scattered all over the globe and in every branch there are
+            opportunities to serve the Lord. We believe strongly that
+            every believer is saved to serve the Lord in the church and
+            in the world.
+          </p>
+
+          <p className="clear-none mb-8">
+            Our departments in the church range from singing in the
+            choir, evangelism and feeding the homeless cities, to
+            participating in a short-term missions trip abroad:
+          </p>
+
+          <div className="clear-both space-y-10">
+            {/* Find your place */}
+            <div>
+              <h4 className="font-semibold underline decoration-1 underline-offset-4 mb-2">
+                Find your place in ministry
+              </h4>
+              <p>
+                Learn more about the many ministries at Tree of Life
+                International Churches.
+              </p>
+              <p>
+                Fill the need by joining a department in the church.
+                Find out what ministries are in need of volunteers.
+                Answer the call.
+              </p>
+            </div>
+
+            {/* Counseling */}
+            <div>
+              <h4 className="font-semibold mb-2">Counseling Ministry</h4>
+              <p>
+                This ministry serves the body of Tree of Life
+                International Churches by providing Christ-centered
+                counseling in all areas of Christian life. Special
+                requirements apply to become a member of this ministry.
+              </p>
+            </div>
+
+            {/* Education */}
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">
+                Education
+              </h3>
+
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Children&apos;s Ministry
+                  </h4>
+                  <p>
+                    From nursery to junior high, children are taught the
+                    importance of a personal relationship with Jesus
+                    Christ through worship, prayer and activities.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold mb-2">New Believers</h4>
+                  <p>
+                    These year-round classes for new Christians cover the
+                    Scriptural basis for salvation and living a
+                    Christ-centered life. They are also an excellent way
+                    to meet people and make new friends within the body
+                    of Christ.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Fellowship */}
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">
+                Fellowship
+              </h3>
+
+              <div className="space-y-6">
+                <div>
+                  <h4 className="font-semibold mb-2">Men&apos;s Ministry</h4>
+                  <p>
+                    The Men&apos;s Ministry meets once a month for prayer
+                    and discussions, and holds fellowships and retreats
+                    to encourage and edify men in the body.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Women&apos;s Ministry
+                  </h4>
+                  <p>
+                    The Women&apos;s Ministry (an arm of{" "}
+                    <a
+                      href="https://www.womenofpurposeinternationalnetwork.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-emerald-400"
+                    >
+                      Women of Purpose International Network
+                    </a>
+                    ) meets for prayer, fellowship activities,
+                    conferences and retreats. It encourages women to
+                    discover their purpose in life and impact their
+                    world for Jesus.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Seniors&apos; Ministry
+                  </h4>
+                  <p>
+                    The Seniors&apos; Ministry welcomes men and women age
+                    50 and above.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Young Adults Ministry
+                  </h4>
+                  <p>
+                    The Tree of Life International Churches ministers to
+                    young adults age 18-29. The fellowship provides
+                    ministry opportunities, discussions on heart issues,
+                    and to foster growth in the walk and knowledge of
+                    Jesus Christ.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Music */}
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">
+                Music
+              </h3>
+              <p>
+                The music department ministers at most services.
+                Rehearsals are on Thursday nights and whenever scheduled.
+              </p>
+            </div>
+
+            {/* Ushering Department */}
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">
+                Ushering Department
+              </h3>
+
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold mb-2">
+                    Book &amp; Music Table Ministry
+                  </h4>
+                  <p>
+                    This ministry manages the book and music tables,
+                    where books written by our pastors, Bibles and music
+                    sermon downloads and DVDs can be purchased before and
+                    after services.
+                  </p>
+                </div>
+
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Ushers welcome and seat visitors.</li>
+                  <li>
+                    Providing on-screen song lyrics for the congregation
+                    to participate in worship when applicable.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Missions */}
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">
+                Missions
+              </h3>
+              <p>
+                Check out the short-term missions trip schedule and
+                register for a missions trip. Apply to join a ministry.
+                It&apos;s easy. There are so many other departments.
+                Please inquire from your welcome desk and read your
+                church bulletin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+
+===== FILE: app/contact-us/page.tsx =====
+
+"use client";
+
+import Image from "next/image";
+import { useState } from "react";
+
+export default function ContactUsPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    comments: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    alert("Thank you! Your message/prayer request has been sent.");
+    setFormData({ name: "", email: "", comments: "" });
+  };
+
+  return (
+    <main className="bg-black text-white min-h-screen">
+      {/* Header Banner */}
+      <section className="relative w-full h-[180px] sm:h-[220px] md:h-[280px] overflow-hidden">
+        <Image
+          src="/contact-banner.jpg"
+          alt="Contact Us Banner"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center brightness-75"
+        />
+        <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+          <h1 className="text-emerald-500 text-2xl sm:text-3xl md:text-4xl font-serif font-bold tracking-widest uppercase">
+            CONTACT US
+          </h1>
+        </div>
+      </section>
+
+      {/* Main Content Area */}
+      <section className="py-12 px-6 max-w-4xl mx-auto flex flex-col items-center text-center">
+        {/* Center Thumbnail Image */}
+        <div className="relative w-[200px] h-[140px] mb-6 overflow-hidden rounded">
+          <Image
+            src="/prayer-thumbnail.jpg"
+            alt="Prayer and worship gathering"
+            fill
+            sizes="200px"
+            className="object-cover"
+          />
+        </div>
+
+        {/* Title */}
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-white mb-8">
+          Contact Us or Leave your prayer requests
+        </h2>
+
+        {/* Form */}
+        <form
+          onSubmit={handleSubmit}
+          className="w-full max-w-md text-left flex flex-col space-y-4 mb-16"
+        >
+          {/* Name */}
+          <div>
+            <label
+              htmlFor="name"
+              className="block text-xs font-bold text-gray-200 mb-1"
+            >
+              Name:
+            </label>
+            <input
+              type="text"
+              id="name"
+              required
+              value={formData.name}
+              onChange={(e) =>
+                setFormData({ ...formData, name: e.target.value })
+              }
+              className="w-full bg-white text-black px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+            />
+          </div>
+
+          {/* Email */}
+          <div>
+            <label
+              htmlFor="email"
+              className="block text-xs font-bold text-gray-200 mb-1"
+            >
+              Email Address:
+            </label>
+            <input
+              type="email"
+              id="email"
+              required
+              value={formData.email}
+              onChange={(e) =>
+                setFormData({ ...formData, email: e.target.value })
+              }
+              className="w-full bg-white text-black px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+            />
+          </div>
+
+          {/* Comments */}
+          <div>
+            <label
+              htmlFor="comments"
+              className="block text-xs font-bold text-gray-200 mb-1"
+            >
+              Comments:
+            </label>
+            <textarea
+              id="comments"
+              rows={6}
+              required
+              value={formData.comments}
+              onChange={(e) =>
+                setFormData({ ...formData, comments: e.target.value })
+              }
+              className="w-full bg-white text-black p-3 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 resize-y"
+            ></textarea>
+          </div>
+
+          {/* Submit */}
+          <div className="pt-2">
+            <button
+              type="submit"
+              className="bg-gray-200 text-black hover:bg-white text-xs font-medium px-3 py-1.5 border border-gray-400 shadow-sm transition-colors"
+            >
+              Submit Information
+            </button>
+          </div>
+        </form>
+
+        {/* Footer Details */}
+        <div className="space-y-2 text-sm sm:text-base font-serif">
+          <p className="font-bold tracking-wider text-white uppercase">
+            TREE OF LIFE INTERNATIONAL CHURCHES
+          </p>
+          <p className="text-gray-300">
+            NIGERIA (Church Office): 31 Nathan Street, Surulere, Lagos, NIGERIA
+          </p>
+          <p className="text-gray-300">
+            Email:{" "}
+            <a
+              href="mailto:info@treeoflifeinternationalchurches.org"
+              className="underline hover:text-emerald-400"
+            >
+              info@treeoflifeinternationalchurches.org
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+===== FILE: app/directory/page.tsx =====
+
+
+
+===== FILE: app/globals.css =====
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+===== FILE: app/how-to-become-a-christian/page.tsx =====
+
+import Image from "next/image";
+
+export const metadata = {
+  title: "How to Become a Christian | Tree of Life International Churches",
+};
+
+export default function HowToBecomeAChristianPage() {
+  return (
+    <main className="bg-black text-white min-h-screen">
+      {/* Top Gospel Header Banner */}
+      <section className="w-full bg-[#1c0f08] border-b border-amber-900/40 py-8 text-center shadow-inner">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-extrabold tracking-widest text-[#a85822] uppercase drop-shadow-md">
+          GOSPEL
+        </h1>
+      </section>
+
+      {/* Main Content Area */}
+      <section className="py-12 px-6 max-w-4xl mx-auto flex flex-col items-center">
+        {/* Page Subtitle */}
+        <h2 className="text-xl sm:text-2xl font-serif font-semibold text-white mb-8 text-center">
+          How to become a Christian
+        </h2>
+
+        <div className="w-full space-y-6 text-gray-200 font-serif leading-relaxed text-sm sm:text-base text-justify sm:text-left">
+          {/* Float Diagram / Side Graphic Section */}
+          <div className="overflow-hidden mb-4 sm:float-left sm:mr-6 sm:mb-2 w-full sm:w-[320px]">
+            <div className="relative w-full h-[180px] rounded border border-gray-800 overflow-hidden shadow-md">
+              <Image
+                src="/gospel-diagram.jpg"
+                alt="Gospel Cross Diagram - Mankind to God"
+                fill
+                sizes="(max-width: 640px) 100vw, 320px"
+                className="object-cover"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-base sm:text-lg font-bold text-white mb-2">
+              What is a real Christian?
+            </h3>
+            <p className="mb-4">
+              A real Christian is someone who has made Jesus the Lord of his life – the No.1 priority.
+            </p>
+            <p>
+              Why make Jesus your priority? Because Jesus made us his top priority – he gave his life for us. And in exchange for our commitment to him, he gives us everything that really matters. We can’t sit on the fence. Jesus himself says in the Bible that he will spit ‘lukewarm’ or halfhearted followers out of his mouth! (Revelation 3:15-16).
+            </p>
+          </div>
+
+          {/* Clear float for following text */}
+          <div className="clear-both pt-2 space-y-4">
+            <p>
+              Not much room for complacency for any of us there. But why bother, you might say. Because we need saving. A drowning man would be stupid to say to the rescuer holding out a hand to save him, “I’ll think about putting all my trust in you… one day”, or “Well, I’m not sure I need saving really, I don’t know if I’m going to drown or not”, or “I’m not sure you are the real rescuer. I’ll wait and see what other people say.” But saving from what? Everyone has made mistakes and done wrong. “All have sinned”, says the Bible. God will not allow ANY sin into heaven, so people must be completely ‘clean’. But hang on a minute, you say, no one’s perfect – so how can we ever get into heaven? And you’d be perfectly right. No one can get into heaven on their own merit. God does not work on a “Do the best you can” basis. He doesn’t weigh up our good works and bad works and see if the scales tip in the right direction. He demands that full and proper justice be done.
+            </p>
+
+            <p>
+              No one in court could expect a judge to waive the sentence for any crime on the basis of the prisoner promising to do the best he can. The brilliant principle on which a holy yet merciful God operates is substitution. In the days of corporal punishment, identical twin boys at attended a school in Glasgow. One had a weak heart , but few people knew about it. One day the ill twin kicked a ball through the window of the headmaster’s office. The other twin bravely volunteered to go to the headmaster, taking his brother’s place, because he knew the punishment would be severe. He received three painful whacks and on the third one the pain was so intense that he broke into tears.
+            </p>
+
+            <p>
+              But he was glad because he knew he had saved his brother from it all. The boy became a substitute, taking his twin’s punishment. This is what Jesus did when he died on the cross. He willingly allowed himself to be killed, so that we can live. But you must ask him to become your personal rescuer or Saviour, otherwise the death of Christ cannot apply personally to you. Good medicine on a bedside table is no use to a dying man unless he takes it. In a humble prayer, ask Jesus to become your Saviour today. You can follow these simple guidelines….
+            </p>
+          </div>
+
+          {/* ABC Guidelines Section */}
+          <div className="pt-8 border-t border-gray-800 mt-8 space-y-4">
+            <h3 className="text-xl font-serif font-bold text-white text-center sm:text-left mb-4">
+              How to become a Christian?
+            </h3>
+            <p className="mb-6">
+              Following Jesus will change your life for ever, but the actual steps you take to begin are as easy as ABC. If you would like to know Jesus for yourself, be certain that your sins are forgiven and that one day you will go to heaven, follow these three easy steps, talking to God in your own words…
+            </p>
+
+            <div className="space-y-4 pl-2 sm:pl-4">
+              <p>
+                <strong className="text-emerald-400 font-bold">A - Admit</strong> that you have done wrong. The Bible says, “All have sinned and fall short of the glory of God” (Romans 3:23).
+              </p>
+
+              <p>
+                <strong className="text-emerald-400 font-bold">B - Believe</strong> that Jesus died so that you can be forgiven, and ask God to forgive you: “God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life” (John 3:16); “If we confess our sins, he is faithful and just and will forgive us our sins” (1 John 1:9).
+              </p>
+
+              <p>
+                <strong className="text-emerald-400 font-bold">C - Commit</strong> yourself to living God’s way from now on. Jesus said, “Whoever follows me will never walk in darkness, but will have the light of life” (John 8:12). Following Jesus is not always an easy road, but it’s the best decision you will ever make!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+===== FILE: app/layout.tsx =====
+
+﻿import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "TOLIC",
+  description: "Tree of Life International Churches",
+};
+
+export default function RootLayout({ children }: LayoutProps<"/">) {
+  return (
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
+
+
+===== FILE: app/page.tsx =====
+
+import Hero from "@/components/Hero";
+import Intro from "@/components/Intro";
+import CoupleFull from "@/components/CoupleFull";
+import Welcome from "@/components/Welcome";
+import Worship from "@/components/Worship";
+import ContactUs from "@/components/ContactUs";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Intro />
+      <CoupleFull />
+      <Welcome />
+      <Worship />
+      <ContactUs />
+    </>
+  );
+}
+
+===== FILE: app/videos/page.tsx =====
+
+export default function VideosPage() {
+  const videos = [
+    { id: "H-v2huaILfE", title: "FIREBRANDINTERNATIONAL" },
+    { id: "vRLvnqfHWDY", title: "Pastor Stella" },
+    { id: "jUDd9ceSFXI", title: "wopin2011" },
+  ];
+
+  return (
+    <main className="bg-black text-white min-h-screen">
+      <section className="relative w-full h-[140px] sm:h-[180px] md:h-[220px] overflow-hidden">
+        <img
+          src="/videos-banner.jpg"
+          alt="Videos"
+          className="h-full w-full object-cover brightness-75"
+        />
+      </section>
+
+      <section className="py-14 px-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-items-center">
+          {videos.slice(0, 2).map((video) => (
+            <div key={video.id} className="w-full max-w-sm">
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2 text-gray-100">
+                {video.title}
+              </p>
+              <div className="relative w-full aspect-video overflow-hidden rounded">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title={video.title}
+                  className="absolute inset-0 h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <div className="w-full max-w-sm">
+            <p className="text-sm font-semibold uppercase tracking-wide mb-2 text-gray-100">
+              {videos[2].title}
+            </p>
+            <div className="relative w-full aspect-video overflow-hidden rounded">
+              <iframe
+                src={`https://www.youtube.com/embed/${videos[2].id}`}
+                title={videos[2].title}
+                className="absolute inset-0 h-full w-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+'@ | Set-Content -Path .\app\videos\page.tsx -Encoding UTF8
+
+
+===== FILE: components/ContactUs.tsx =====
+
+"use client";
+
+import { useState } from "react";
+
+export default function ContactUs() {
+  const [email, setEmail] = useState("");
+
+  return (
+    <section className="bg-black px-6 py-12 text-white">
+      <div className="mx-auto max-w-md">
+        <h2 className="font-serif text-xl">Contact us</h2>
+        <p className="mt-2 text-xs text-gray-400">
+          * Indicates required field
+        </p>
+        <label className="mt-4 block text-sm">
+          Leave your Email to subscribe *
+        </label>
+        <input
+          type="email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="mt-2 w-full rounded border border-gray-600 bg-black px-3 py-2 text-white"
+        />
+        <button
+          type="button"
+          className="mt-4 rounded bg-gray-700 px-4 py-2 text-sm font-semibold hover:bg-gray-600"
+        >
+          Subscribe to Newsletter
+        </button>
+      </div>
+    </section>
+  );
+}
+
+===== FILE: components/CoupleFull.tsx =====
+
+export default function CoupleFull() {
+  return (
+    <section className="w-full bg-black">
+      <div className="mx-auto max-w-3xl">
+        <img
+          src="/Rev.jpg"
+          alt="Apostle John & Rev Stella Ebegbuna"
+          className="h-auto w-full object-cover"
+        />
+      </div>
+    </section>
+  );
+}
+
+===== FILE: components/Footer.tsx =====
+
+import Image from "next/image";
+import Link from "next/link";
+import { FaFacebookF, FaEnvelope } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+export default function Footer() {
+  const links = [
+    { label: "About Us", href: "/about" },
+    { label: "Contact us", href: "/contact" },
+    { label: "Our Statement of Faith", href: "/statement-of-faith" },
+    { label: "Become a Christian", href: "/become-a-christian" },
+    { label: "Our Founding Pastors", href: "/founding-pastors" },
+    { label: "Firebrand International Gospel", href: "/firebrand-international" },
+    { label: "Missions", href: "/missions" },
+    { label: "Our Women's Ministry", href: "/womens-ministry" },
+  ];
+
+  return (
+    <footer className="bg-black text-olive-500 py-12 px-6 border-t border-zinc-900">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+        
+        {/* Left Column: Logo */}
+        <div className="flex-1 flex justify-center md:justify-start">
+          <div className="relative w-32 h-32">
+            <Image
+              src="/logo.jpg" // Update this path to your actual logo asset in /public
+              alt="Ministry Logo"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
+
+        {/* Center Column: Social Icons */}
+        <div className="flex items-center gap-4 text-zinc-300">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="hover:text-white transition-colors"
+          >
+            <FaFacebookF size={18} />
+          </a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X (Twitter)"
+            className="hover:text-white transition-colors"
+          >
+            <FaXTwitter size={18} />
+          </a>
+          <a
+            href="mailto:info@example.com"
+            aria-label="Email"
+            className="hover:text-white transition-colors"
+          >
+            <FaEnvelope size={18} />
+          </a>
+        </div>
+
+        {/* Right Column: Navigation Links */}
+        <div className="flex-1 text-center md:text-right">
+          <ul className="space-y-2">
+            {links.map((link, index) => (
+              <li key={index}>
+                <Link
+                  href={link.href}
+                  className="font-serif text-[#788640] hover:text-[#99aa52] underline underline-offset-4 text-sm md:text-base transition-colors"
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+  );
+}
+
+===== FILE: components/Header.tsx =====
+
+export default function Header() {
+  const dropdownLinkClass =
+    "block px-4 py-2 text-[#f5f0e6] normal-case hover:bg-white/10";
+
+  return (
+    <header className="bg-[#0f2e1a] text-white">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="flex items-center gap-3">
+          <img src="/logo.jpg" alt="TOLIC Logo" className="h-10 w-10" />
+          <span
+            className="text-sm font-bold tracking-wider text-green-700"
+            style={{ fontVariant: "small-caps" }}
+          >
+            Tree of Life International Churches
+          </span>
+        </div>
+        <ul className="flex items-center gap-8 text-sm font-semibold uppercase">
+          <li>
+            <a href="/" className="border-b-2 border-white pb-1">
+              Home
+            </a>
+          </li>
+
+          <li className="group relative">
+            <button className="cursor-pointer">About</button>
+            <ul className="absolute left-0 top-full z-20 hidden w-56 flex-col bg-black py-2 shadow-lg group-hover:flex">
+              <li><a href="/about/about-us" className={dropdownLinkClass}>About Us</a></li>
+              <li><a href="/about/general-overseer" className={dropdownLinkClass}>Our General Overseer</a></li>
+              <li><a href="/about/statement-of-faith" className={dropdownLinkClass}>Our Statement of Faith</a></li>
+              <li><a href="/about/history-and-vision" className={dropdownLinkClass}>Our History &amp; Vision</a></li>
+            </ul>
+          </li>
+
+          <li className="group relative">
+            <button className="cursor-pointer">Contact</button>
+            <ul className="absolute left-0 top-full z-20 hidden w-60 flex-col bg-black py-2 shadow-lg group-hover:flex">
+              <li><a href="/contact-us" className={dropdownLinkClass}>Contact Us</a></li>
+              <li><a href="/how-to-become-a-christian" className={dropdownLinkClass}>How to Become a Christian</a></li>
+            </ul>
+          </li>
+
+          <li className="group relative">
+            <button className="cursor-pointer">Ministries</button>
+            <ul className="absolute left-0 top-full z-20 hidden w-64 flex-col bg-black py-2 shadow-lg group-hover:flex">
+              <li><a href="/church-departments" className={dropdownLinkClass}>Church Departments</a></li>
+              <li><a href="/resources-for-pastors" className={dropdownLinkClass}>Resources for TOLIC Church Pastors</a></li>
+            </ul>
+          </li>
+
+          <li className="group relative">
+            <button className="cursor-pointer">Explore</button>
+            <ul className="absolute left-0 top-full z-20 hidden w-48 flex-col bg-black py-2 shadow-lg group-hover:flex">
+              <li><a href="/celebration" className={dropdownLinkClass}>Celebration</a></li>
+              <li><a href="/videos" className={dropdownLinkClass}>Videos</a></li>
+              <li><a href="/directory" className={dropdownLinkClass}>Directory</a></li>
+            </ul>
+          </li>
+
+          <li className="group relative">
+            <button className="cursor-pointer">Links</button>
+            <ul className="absolute left-0 top-full z-20 hidden w-56 flex-col bg-black py-2 shadow-lg group-hover:flex">
+              <li><a href="/firebrand-missions" className={dropdownLinkClass}>Firebrand Int&apos;l Gospel Missions</a></li>
+              <li><a href="/womens-ministry" className={dropdownLinkClass}>Women&apos;s Ministry</a></li>
+              <li><a href="/staff-email" className={dropdownLinkClass}>Staff Email</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+===== FILE: components/Hero.tsx =====
+
+export default function Hero() {
+  return (
+    <section className="relative h-[420px] w-full overflow-hidden">
+      <img
+        src="/pastor.jpg"
+        alt="Pastor preaching"
+        className="h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/10 px-6 text-center">
+        <h1 className="text-6xl font-serif italic text-green-600 drop-shadow-lg">
+          TOLIChurches
+        </h1>
+        <h2 className="mt-4 font-serif text-3xl font-extrabold uppercase leading-tight tracking-wide text-green-600 [text-shadow:_2px_2px_8px_rgb(255_255_255_/_60%)] sm:text-4xl">
+          2026: Our Year of Divine Mandate!
+          <span className="mt-2 block text-2xl italic tracking-normal sm:text-3xl">
+            Luke 4:18-19
+          </span>
+        </h2>
+      </div>
+    </section>
+  );
+}
+
+===== FILE: components/Intro.tsx =====
+
+export default function Intro() {
+  return (
+    <section className="bg-black px-6 py-16 text-white">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
+        {/* Left: text */}
+        <div className="text-center md:text-left">
+          <h2 className="font-serif text-4xl font-bold leading-tight md:text-5xl">
+            <span className="text-green-500">Tree of Life International Churches</span>
+          </h2>
+          <p className="mt-4 font-serif text-xl italic">
+            Multiple locations and nationalities but One Church
+          </p>
+          <p className="mt-2 font-serif text-lg italic text-red-500">
+            &quot;Passionate about God! Passionate about People!&quot;
+          </p>
+          <p className="mt-6 font-serif text-sm italic leading-relaxed text-gray-200">
+            <span className="font-bold">Revelation 2:7</span> &quot;He that
+            hath an ear, let him hear what the Spirit saith unto the
+            churches; To him that overcometh will I give to eat of the tree
+            of life, which is in the midst of the paradise of God.&quot;
+          </p>
+        </div>
+
+        {/* Right: photo + caption */}
+        <div className="flex flex-col items-center">
+          <img
+            src="/founder.jpg"
+            alt="Apostle John & Rev Stella Ebegbuna"
+            className="w-full max-w-md object-cover"
+          />
+          <p className="mt-2 text-sm font-semibold text-white">
+            Apostle John &amp; Rev Stella Ebegbuna (General Overseer)
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+===== FILE: components/Welcome.tsx =====
+
+export default function Welcome() {
+  return (
+    <section className="bg-[#2c3e3d] px-6 py-16 text-gray-200">
+      <div className="mx-auto max-w-3xl">
+        <p className="font-serif text-xl font-medium leading-snug">
+          Welcome to Tree of Life International Churches (TOLIChurches)
+        </p>
+        <p className="mt-4 font-serif text-xl font-medium leading-snug">
+          We are so glad you are visiting our website and we hope and pray
+          that you will worship with us in the near future. This is the
+          season to know God and make Him known through His Son Jesus. God
+          loves you and wants to have a relationship with you and that is
+          why He sent Jesus to die for you and sent the Holy Spirit to help
+          you live a victorious Christian life. May the LORD bless and
+          reveal Himself to you as you seek Him the Jesus name.
+        </p>
+        <p className="mt-6 text-sm">His Bondservants,</p>
+        <p className="text-sm italic">Apostle John &amp; Rev Stella Ebegbuna</p>
+      </div>
+    </section>
+  );
+}
+
+===== FILE: components/Worship.tsx =====
+
+"use client";
+
+import { useState, useEffect } from "react";
+
+const images = Array.from({ length: 15 }, (_, i) => `/slide-${i + 1}.jpg`);
+
+export default function Worship() {
+  const [current, setCurrent] = useState(0);
+  const [playing, setPlaying] = useState(true);
+
+  useEffect(() => {
+    if (!playing) return;
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [playing]);
+
+  const goNext = () => setCurrent((prev) => (prev + 1) % images.length);
+  const goPrev = () =>
+    setCurrent((prev) => (prev - 1 + images.length) % images.length);
+
+  return (
+    <section className="bg-black px-6 py-12 text-center text-white">
+      <div className="mx-auto max-w-md border-t border-gray-700 pt-6">
+        <h2 className="font-serif text-2xl italic">Worship!</h2>
+      </div>
+
+      <div className="relative mx-auto mt-8 max-w-xl">
+        <button
+          onClick={() => setPlaying((p) => !p)}
+          className="absolute left-2 top-2 z-10 rounded bg-black/60 px-2 py-1 text-xs"
+        >
+          {playing ? "Pause" : "Play"}
+        </button>
+
+        <img
+          src={images[current]}
+          alt={`Worship slide ${current + 1}`}
+          className="h-80 w-full object-cover"
+        />
+
+        <button
+          onClick={goPrev}
+          className="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 px-3 py-2 text-xl"
+        >
+          ‹
+        </button>
+        <button
+          onClick={goNext}
+          className="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 px-3 py-2 text-xl"
+        >
+          ›
+        </button>
+      </div>
+    </section>
+  );
+}
+
+===== FILE: dump-code.js =====
+
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+const OUTPUT_FILE = "project-dump.txt";
+
+const IGNORE_DIRS = new Set([
+  "node_modules", ".next", ".git", "out", "dist", "build", ".vercel", ".turbo",
+]);
+
+const INCLUDE_EXTENSIONS = new Set([
+  ".ts", ".tsx", ".js", ".jsx", ".css", ".json", ".mjs", ".cjs",
+]);
+
+const ALWAYS_INCLUDE_NAMES = new Set([
+  "next.config.js", "next.config.ts", "next.config.mjs",
+  "tailwind.config.js", "tailwind.config.ts", "tsconfig.json", "package.json",
+]);
+
+const SKIP_JSON_NAMES = new Set(["package-lock.json"]);
+
+let output = "";
+
+function walk(dir) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      if (IGNORE_DIRS.has(entry.name)) continue;
+      walk(path.join(dir, entry.name));
+    } else {
+      const ext = path.extname(entry.name);
+      const fullPath = path.join(dir, entry.name);
+      const relPath = path.relative(ROOT, fullPath).split(path.sep).join("/");
+      if (SKIP_JSON_NAMES.has(entry.name)) continue;
+      const shouldInclude = INCLUDE_EXTENSIONS.has(ext) || ALWAYS_INCLUDE_NAMES.has(entry.name);
+      if (!shouldInclude) continue;
+      let content;
+      try {
+        content = fs.readFileSync(fullPath, "utf8");
+      } catch (err) {
+        content = `!! Could not read file: ${err.message}`;
+      }
+      output += `\n\n===== FILE: ${relPath} =====\n\n`;
+      output += content;
+    }
+  }
+}
+
+walk(ROOT);
+fs.writeFileSync(OUTPUT_FILE, output.trim(), "utf8");
+console.log(`Done. Wrote ${OUTPUT_FILE} (${(output.length / 1024).toFixed(1)} KB)`);
+
+===== FILE: eslint.config.mjs =====
+
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  ...nextTs,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+  ]),
+]);
+
+export default eslintConfig;
+
+
+===== FILE: next-env.d.ts =====
+
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+import "./.next/dev/types/routes.d.ts";
+import "./.next/dev/types/root-params.d.ts";
+
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
+
+
+===== FILE: next.config.ts =====
+
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+};
+
+export default nextConfig;
+
+
+===== FILE: package.json =====
+
+{
+  "name": "tolic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
+
+
+===== FILE: postcss.config.mjs =====
+
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+
+export default config;
+
+
+===== FILE: tsconfig.json =====
+
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules"]
+}

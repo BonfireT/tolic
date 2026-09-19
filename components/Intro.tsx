@@ -5,9 +5,7 @@ export default function Intro() {
         {/* Left: text */}
         <div className="text-center md:text-left">
           <h2 className="font-serif text-4xl font-bold leading-tight md:text-5xl">
-            <span className="text-green-500">Tree of </span>
-            <span className="text-red-600">Life</span>{" "}
-            <span className="text-green-500">International Churches</span>
+            <span className="text-green-500">Tree of Life International Churches</span>
           </h2>
           <p className="mt-4 font-serif text-xl italic">
             Multiple locations and nationalities but One Church
