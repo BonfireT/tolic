@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TOLIC",
+  title: "Tree of Life International Churches",
   description: "Tree of Life International Churches",
 };
 
