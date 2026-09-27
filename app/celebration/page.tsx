@@ -2,13 +2,69 @@
 
 import { useState } from "react";
 
-const TOTAL_IMAGES = 94;
 const PER_PAGE = 12;
 
-const images = Array.from(
-  { length: TOTAL_IMAGES },
-  (_, i) => `/celebration/celebration-${i + 1}.jpg`
-);
+const imageNames = [
+  "6077642_orig.jpg",
+  "4100694_orig.jpg",
+  "3844923_orig.jpg",
+  "5042168_orig.jpg",
+  "5378619_orig.jpg",
+  "4980859_orig.jpg",
+  "3770994_orig.jpg",
+  "4924400_orig.jpg",
+  "913845_orig.jpg",
+  "7255944_orig.jpg",
+  "5404075_orig.jpg",
+  "9667478_orig.jpg",
+  "2158629_orig.jpg",
+  "9652721_orig.jpg",
+  "5217135_orig.jpg",
+  "2294724_orig.jpg",
+  "2181565_orig.jpg",
+  "7172526_orig.jpg",
+  "5746882_orig.jpg",
+  "8279992_orig.jpg",
+  "4728501_orig.jpg",
+  "4473547_orig.jpg",
+  "4634426_orig.jpg",
+  "473873_orig.jpg",
+  "9849503_orig.jpg",
+  "4200155_orig.jpg",
+  "7459917_orig.jpg",
+  "116605_orig.jpg",
+  "7647630_orig.jpg",
+  "9887885_orig.jpg",
+  "3562283_orig.jpg",
+  "7843969_orig.jpg",
+  "325471_orig.jpg",
+  "6808404_orig.jpg",
+  "9625227_orig.jpg",
+  "3175804_orig.jpg",
+  "5762066_orig.jpg",
+  "5792780_orig.jpg",
+  "4850333_orig.jpg",
+  "8854946_orig.jpg",
+  "7859014_orig.jpg",
+  "7732325_orig.jpg",
+  "4908275_orig.jpg",
+  "7597220_orig.jpg",
+  "9487668_orig.jpg",
+  "7285058_orig.jpg",
+  "8709323_orig.jpg",
+  "2554238_orig.jpg",
+  "5027470_orig.jpg",
+  "1725898_orig.jpg",
+  "68639_orig.jpg",
+  "8063325_orig.jpg",
+  "8360595_orig.jpg",
+  "2930034_orig.jpg",
+  "7532376_orig.jpg",
+  "506294_orig.jpg"
+];
+
+// Maps directly to /<filename> for files directly inside public/
+const images = imageNames.map((fileName) => `/${fileName}`);
 
 export default function CelebrationPage() {
   const [page, setPage] = useState(0);
@@ -41,7 +97,7 @@ export default function CelebrationPage() {
       {/* Banner */}
       <section className="relative w-full h-[180px] sm:h-[220px] md:h-[280px] overflow-hidden">
         <img
-          src="/celebration-banner.jpg"
+          src="/celebration.jpg"
           alt="Celebration"
           className="h-full w-full object-cover brightness-75"
         />

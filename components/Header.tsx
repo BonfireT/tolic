@@ -27,6 +27,7 @@ const NAV: NavItem[] = [
     children: [
       { label: "Contact Us", href: "/contact-us" },
       { label: "How to Become a Christian", href: "/how-to-become-a-christian" },
+      { label: "Prayer Requests", href: "/prayer-requests" },
     ],
   },
   {

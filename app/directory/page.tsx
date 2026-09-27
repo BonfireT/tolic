@@ -2,7 +2,26 @@
 
 import { useState } from "react";
 
-const images = Array.from({ length: 18 }, (_, i) => `/directory/directory-${i + 1}.jpg`);
+const images = [
+  "/5206142_orig.jpg",
+  "/8019914_orig.jpg",
+  "/8718647_orig.jpg",
+  "/1278614_orig.jpg",
+  "/2927049_orig.jpg",
+  "/3530320_orig.jpg",
+  "/3238477_orig.jpg",
+  "/6914367_orig.jpg",
+  "/2300333_orig.jpg",
+  "/621438_orig.jpg",
+  "/7913014_orig.jpg",
+  "/4551927_orig.jpg",
+  "/2bdde771-99d8-450b-987c-c5c6b4cf8f10_orig.jpeg",
+  "/ba6c0694-9b63-4609-a662-7b4d3c249d5c_orig.jpeg",
+  "/d9e7edc5-e8f7-49eb-a43d-aa93fb853be2_orig.jpeg",
+  "/57d1586d-6562-4d2f-b4d4-45be162ca7f1_orig.jpeg",
+  "/b38456e2-b836-4a97-8c51-b8693aa28d60_orig.jpeg",
+  "/37bd4449-1e6a-44a5-b54b-3ca39655e8da_orig.jpeg",
+];
 
 const branches = [
   {
@@ -43,8 +62,8 @@ export default function DirectoryPage() {
       {/* Banner */}
       <section className="relative w-full h-[140px] sm:h-[180px] md:h-[220px] overflow-hidden">
         <img
-          src="/directory-banner.jpg"
-          alt="Directory"
+          src="/20230820-182433-original_orig.jpeg"
+          alt="Directory Banner"
           className="h-full w-full object-cover brightness-75"
         />
       </section>
@@ -120,8 +139,8 @@ export default function DirectoryPage() {
                   </p>
                 )}
 
-                {branch.lines.map((line) => (
-                  <p key={line} className="text-gray-200">
+                {branch.lines.map((line, i) => (
+                  <p key={i} className="text-gray-200">
                     {line}
                   </p>
                 ))}
@@ -140,7 +159,7 @@ export default function DirectoryPage() {
 
                 {branch.href && (
                   
-                   <a  href={branch.href}
+                    <a href={branch.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-200 underline hover:text-emerald-400 break-all"

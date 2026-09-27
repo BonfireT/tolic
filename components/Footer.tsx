@@ -10,7 +10,7 @@ export default function Footer() {
     { label: "Our Statement of Faith", href: "/about/statement-of-faith" },
     { label: "Become a Christian", href: "/how-to-become-a-christian" },
     { label: "Our Founding Pastors", href: "/founding-pastors" },
-    { label: "Firebrand International Gospel", href: "/firebrand-international" },
+    { label: "Firebrand International Gospel", href: "/firebrand-missions" },
     { label: "Missions", href: "/missions" },
     { label: "Our Women's Ministry", href: "/womens-ministry" },
   ];
@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4 text-zinc-300">
           
-            <a href="https://facebook.com"
+            <a href="https://facebook.com/treeoflifeinternationalchurches"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -41,7 +41,7 @@ export default function Footer() {
             <FaFacebookF size={18} />
           </a>
           
-            <a href="https://x.com"
+            <a href="https://twitter.com/tolichurches"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"
@@ -50,7 +50,7 @@ export default function Footer() {
             <FaXTwitter size={18} />
           </a>
           
-            <a href="mailto:info@example.com"
+            <a href="mailto:info@treeoflifeinternationalchurches.org"
             aria-label="Email"
             className="hover:text-white transition-colors"
           >
